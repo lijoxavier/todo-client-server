@@ -1,0 +1,34 @@
+.container {
+    width: 500px;
+    height: 612px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+    background: var(--bg-clr);
+    color: var(--primary-clr);
+    border: 1px solid;
+    border-color: var(--border-clr);
+    border-radius: 6px;
+    margin-top: 66px;
+
+    font-family: var(--ff);
+    font-weight: var(--fw-400);
+    line-height: var(--lh-16);
+
+}
+
+.container .search {
+    display: flex;
+    width: inherit;
+    justify-content: center;
+    margin-bottom: 54px;
+}
+
+.container h3{
+    margin-top: 27px;
+    margin-bottom: 36px;
+    font-weight: var(--fw-700);
+    font-size: var(--fs-36);
+    line-height: var(--lh-42);
+}

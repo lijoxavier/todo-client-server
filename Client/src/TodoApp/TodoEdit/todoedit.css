@@ -1,0 +1,25 @@
+.todoedit {
+    width: 484px;
+    height: 69px;
+    display: flex;
+    align-items: center;
+    outline: 1px solid salmon;
+padding: 14px 0 15px 42px;
+    /* margin-right: 38px; */
+}
+
+.todoedit input {
+    width: 234px;
+    height: 40px;
+    padding: 12px 0 12px 15px;
+    margin: auto;
+    margin-right: 9px;
+    
+}
+
+.todoedit button{
+    width: 76px;
+    height: 40px;
+    padding: 0;
+    margin-right: 9px;
+}
